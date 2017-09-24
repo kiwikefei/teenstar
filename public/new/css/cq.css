@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS cq */
+.banner {
+    background-image: url(../images/cq/banner.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .banner {
+        background-image: url(../images/cq/banner@2x.png);
+    }
+}
+
+/* box1 */
+.box1 {
+    position: relative;
+    z-index: 3;
+    margin-top: -350px;
+}
+
+.box1 .title h2 {
+    color: #fff;
+}
+
+.box1 .p {
+    padding-bottom: 409px;
+    background: url(../images/cq/cq@2x.png) no-repeat center bottom;
+    background-size: 882px 409px;
+}
+
+.box1 .p p {
+    width: 580px;
+    height: 134px;
+    line-height: 22px;
+    margin: -20px auto 70px;
+    padding: 22px 36px 0;
+    background: url(../images/cq/box1_p_bg.png) no-repeat;
+}
+
+/* box2 */
+.box2 {
+    height: 598px;
+    background: url(../images/cq/time_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.box2 .p {
+    width: 960px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box2 .content {
+    width: 990px;
+    height: 316px;
+    margin: 30px auto 0;
+}
+
+.box2 .content dl {
+    position: relative;
+    float: left;
+    width: 238px;
+    height: 290px;
+    background: #fff;
+    margin: 0 1px;
+    padding: 0 40px;
+    display: inline;
+    transition: all .2s;
+}
+
+.box2 .content dl:hover {
+    transform: translateY(-20px);
+}
+
+.box2 .content dt {
+    font-size: 18px;
+    text-align: center;
+    padding: 115px 0 25px;
+    background: url(../images/cq/icon_time01.png) no-repeat center 28px;
+    background-size: 80px 80px;
+}
+
+.box2 .content dt.i2 {
+    background-image: url(../images/cq/icon_time02.png);
+}
+
+.box2 .content dt.i3 {
+    background-image: url(../images/cq/icon_time03.png);
+}
+
+.box2 .content dd p {
+    color: #666;
+    line-height: 22px;
+}
+
+.box1 .p p, .box2 .content dd p {
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+/* box3 */
+.box3 .title {
+    padding: 50px 0;
+}
+
+.box3 .content {
+    height: 560px;
+    background: url(../images/cq/triangle.png) no-repeat top;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .box3 .content {
+        height: 560px;
+        background: url(../images/cq/triangle@2x.png) no-repeat top;
+        background-size: 956px 444px ;
+    }
+    }

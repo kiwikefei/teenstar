@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS branch */
+.banner {
+    background-image: url(../images/franchise/banner.jpg);
+    background-color: #fabe00;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .banner {
+        background-image: url(../images/franchise/banner@2x.jpg);
+    }
+}
+
+.title {
+    padding: 20px 0;
+}
+
+.title h2 {
+    font-size: 20px;
+}
+
+/* box1 */
+.box1 .content {
+    width: 960px;
+    margin: 0 auto 36px;
+}
+
+.box1 .tit {
+    height: 192px;
+}
+
+.box1 .tit li {
+    position: relative;
+    float: left;
+    width: 192px;
+    height: 192px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url(../images/franchise/reason01@2x.jpg) no-repeat;
+    background-size: 192px 192px;
+    cursor: pointer;
+    filter: alpha(Opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.box1 .tit li.current {
+    filter: alpha(Opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.box1 .tit li.l2 {
+    background-image: url(../images/franchise/reason02@2x.jpg);
+}
+
+.box1 .tit li.l3 {
+    background-image: url(../images/franchise/reason03@2x.jpg);
+}
+
+.box1 .tit li.l4 {
+    background-image: url(../images/franchise/reason04@2x.jpg);
+}
+
+.box1 .tit li.l5 {
+    background-image: url(../images/franchise/reason05@2x.jpg);
+}
+
+.box1 .con {
+    position: relative;
+    width: 960px;
+    height: 150px;
+    padding-top: 23px;
+    overflow: hidden;
+}
+
+.box1 .con .sublist {
+    float: left;
+    width: 904px;
+    height: 133px;
+    border: #999 1px solid;
+    line-height: 28px;
+    padding: 15px 27px 0;
+    background: #fff;
+}
+
+.box1 .con .sublist:before {
+    position: absolute;
+    content: " ";
+    top: 5px;
+    width: 58px;
+    height: 19px;
+    background: url(../images/franchise/jt.png) no-repeat;
+}
+
+.box1 .con .s1:before {
+    left: 67px;
+}
+.box1 .con .s2:before {
+    left: 259px;
+}
+.box1 .con .s3:before {
+    left: 451px;
+}
+.box1 .con .s4:before {
+    left: 643px;
+}
+.box1 .con .s5:before {
+    left: 835px;
+}
+
+/* box2 */
+.box2 .content {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.box2 dl {
+    float: left;
+    width: 460px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box2 dt {
+    width: 460px;
+    height: 304px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url(../images/franchise/shared@2x.png) no-repeat;
+    background-size: 460px 304px;
+}
+
+.box2 .dl2 dt {
+    background-image: url(../images/franchise/stardard@2x.png)
+}
+
+.box2 dd {
+    padding: 15px 0;
+}
+
+.box2 dd strong {
+    margin-right: 10px;
+}
+
+.box2, .box4 {
+    background: #f0f0f0;
+}
+
+/* box3 */
+.box3 .content {
+    position: relative;
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto 50px;
+}
+
+.box3 dl {
+    float: left;
+    padding: 50px 0;
+}
+
+.box3 dt {
+    float: left;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -999em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px 110px;
+    margin: 0 5px 0 5px;
+    display: inline;
+}
+
+.box3 dd {
+    float: left;
+    width: 290px;
+    font-size: 12px;
+    color: #000;
+    line-height: 22px;
+    margin: 18px 0 0 0;
+}
+
+.box3 .dl1 {
+    background: url(../images/franchise/flow01_bg@2x.jpg) no-repeat right bottom;
+    background-size: 960px 193px;
+}
+
+.box3 .dl5 {
+    background: url(../images/franchise/flow02_table@2x.png) no-repeat 142px bottom;
+    background-size: 312px 150px;
+}
+
+.box3 .dl8 {
+    height: 178px;
+    background: url(../images/franchise/flow03_table@2x.png) no-repeat 28px bottom;
+    background-size: 960px 250px;
+}
+
+.box3 .dl1, .box3 .dl8 {
+    width: 910px;
+}
+
+.box3 .dl2, .box3 .dl3, .box3 .dl4, .box3 .dl5, .box3 .dl6, .box3 .dl7 {
+    width: 455px;
+}
+
+.box3 .dl4, .box3 .dl5, .box3 .dl8 {
+    padding-top: 0;
+}
+
+.box3 .dl3 dd, .box3 .dl5 dd, .box3 .dl7 dd {
+    width: 312px;
+}
+
+.box3 .dl1, .box3 .dl2, .box3 .dl4, .box3 .dl6, .box3 .dl8 {
+    padding-left: 50px;
+    display: inline;
+}
+
+.box3 .dl1 dt {
+    background-image: url(../images/franchise/flow01_01@2x.png);
+}
+.box3 .dl2 dt {
+    background-image: url(../images/franchise/flow02_01@2x.png);
+}
+.box3 .dl3 dt {
+    background-image: url(../images/franchise/flow02_02@2x.png);
+}
+.box3 .dl4 dt {
+    background-image: url(../images/franchise/flow02_03@2x.png);
+}
+.box3 .dl5 dt {
+    background-image: url(../images/franchise/flow02_04@2x.png);
+}
+.box3 .dl6 dt {
+    background-image: url(../images/franchise/flow03_01@2x.png);
+}
+.box3 .dl7 dt {
+    background-image: url(../images/franchise/flow03_02@2x.png);
+}
+.box3 .dl8 dt {
+    background-image: url(../images/franchise/flow03_03@2x.png);
+}
+
+.box3 .dl5 dd {
+    padding-bottom: 110px;
+}
+
+.box3 .t {
+    position: absolute;
+    width: 30px;
+    height: 141px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url(../images/franchise/flow01@2x.png) no-repeat right bottom;
+    background-size: 30px 141px;
+    margin-top: 40px;
+}
+.box3 .t2 {
+    background-image: url(../images/franchise/flow02@2x.png);
+}
+.box3 .t3 {
+    background-image: url(../images/franchise/flow03@2x.png);
+}
+
+.box3 .t2, .box3 .t3 {
+    margin-top: 60px;
+}
+
+.box3 .jt {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    background: url(../images/franchise/arrow@2x.png) no-repeat;
+    background-size: 20px 18px;
+    margin-top: 26px;
+    margin-left: 5px;
+}
+
+/* box4 */
+.box4 {
+    position: relative;
+    height: 300px;
+}
+
+.box4 dl {
+    width: 260px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0 0 135px;
+}
+
+.box4 dt {
+    width: 100%;
+    height: 53px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url(../images/franchise/text@2x.png) no-repeat;
+    background-size: 260px 53px;
+}
+
+.box4 dd a {
+    display: block;
+    width: 212px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #fff;
+    background: #50b1eb;
+    border-radius: 20px;
+    margin: 30px auto 15px;
+}
+
+.box4 dd .phone {
+    font-size: 24px;
+    color: #50b1eb;
+}
+
+.application-bottom {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 291px;
+    height: 316px;
+    background: url(../images/franchise/application_bottom@2x.png) no-repeat;
+    background-size: 291px 316px;
+    margin-left: -430px;
+}
+
+.line01 {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+    background: #999;
+}
+
+
+
+
+
+
+
+
+
+

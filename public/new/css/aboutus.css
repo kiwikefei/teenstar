@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS branch */
+.banner {
+    background-image: url(../images/aboutus/banner.jpg);
+    background-color: #fabe00;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .banner {
+        background-image: url(../images/aboutus/banner@2x.jpg);
+    }
+}
+
+/* dl */
+.dl {
+    width: 960px;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+.dl dt {
+    font-size: 18px;
+    padding: 25px 0;
+}
+
+.dl1 dt {
+    padding-top: 0;
+}
+
+.dl1 dd {
+    position: relative;
+    font-size: 12px;
+    padding-left: 340px;
+}
+
+.dl1 dd p {
+    margin-bottom: 10px;
+}
+
+.dl1 dd img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 318px;
+    height: 155px;
+}
+
+.dl2 {
+    position: relative;
+}
+
+.dl2 dd li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.dl2 dd li span {
+    float: left;
+    width: 98px;
+}
+
+.dl2 dd img {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    width: 406px;
+    height: 249px;
+}
+
+.dl3 dd {
+    padding: 0 100px;
+}
+
+.dl3 dd img {
+    width: 690px;
+    height: 375px;
+    display: block;
+    margin: 0 auto;
+}
+
+.dl3 dd strong {
+    display: block;
+    margin: 18px 0;
+}
+
+.dl3 dd p {
+    font-size: 12px;
+}
+
+.dl4 dd {
+    position: relative;
+    min-height: 255px;
+    padding-left: 450px;
+    line-height: 30px;
+}
+
+
+.dl4 dd img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 425px;
+    height: 255px;
+}
+
+.dl4 dd strong {
+    font-size: 18px;
+}
+
+
+
