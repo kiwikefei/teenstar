@@ -8,19 +8,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        .container{
+        body {
+            height: 100%;
+            background-color: #333;
+        }
+        body {
+            color: #fff;
+            text-align: center;
+        }
+        .container {
             display: flex;
-            justify-content: center;
-            align-content: center;
+            vertical-align: middle;
+        }
+        .btn-default,
+        .btn-default:hover,
+        .btn-default:focus {
+            color: #333;
+            text-shadow: none; /* Prevent inheritance from `body` */
+            background-color: #fff;
+            border: 1px solid #fff;
         }
     </style>
     <title>TeenStar</title>
 </head>
 <body>
 <div class="container">
-    <div class="starter-template">
-        @yield('content')
-    </div>
+    @yield('content')
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
