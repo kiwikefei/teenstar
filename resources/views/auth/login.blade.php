@@ -37,7 +37,7 @@
                                 @endif
                             </div>
                         </div>
-
+                        <button type="submit">Login</button>
                     </form>
                 </div>
             </div>

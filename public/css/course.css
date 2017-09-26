@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS cq */
+.banner {
+    background-image: url(../images/course/banner.jpg);
+    background-color: #fabe00;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .banner {
+        background-image: url(../images/course/banner@2x.jpg);
+    }
+}
+
+.title {
+    padding: 25px 0;
+}
+
+.title h2 {
+    margin-bottom: 8px;
+}
+
+.title small {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+}
+
+.title2 {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.title2 h2 {
+    font-size: 18px;
+}
+
+.box .p {
+    width: 700px;
+    line-height: 24px;
+    margin: 0 auto 40px;
+    color:#999;
+}
+
+/* box1 */
+.box1 {
+    padding-bottom: 320px;
+    background: url(../images/course/sentiment_img@2x.jpg) no-repeat bottom center;
+    background-size: 960px 300px;
+}
+
+.box1 .content {
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.box1 .content li {
+    float: left;
+    width: 191px;
+    height: 166px;
+    border-right: #ccc 1px solid;
+}
+
+.box1 .content li:nth-last-child(1) {
+    border: 0;
+}
+
+.box1 .content li span.counter {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+}
+
+.box1 .content li span.counter big {
+
+}
+
+.box1 .content li strong {
+    display: block;
+    text-align: center;
+    margin: -5px 0 5px;
+}
+
+.box1 .content li p {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 23px;
+    color: #999;
+}
+
+/* box2 */
+.box2 {
+    background: #f0f0f0;
+}
+
+.box2 .content {
+    width: 960px;
+    height: 545px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: url(../images/course/thinking_img@2x.jpg) no-repeat left bottom;
+    background-size: 340px 540px;
+}
+
+.box2 .content .title2 {
+    padding-left: 380px;
+}
+
+.box2 .content, .box4 .content {
+    position: relative;
+}
+
+.box2 .content .kc {
+    top: 76px;
+}
+
+.box2 .content .kc .tit li {
+    width: 143px;
+    line-height: 26px;
+    padding-top: 15px;
+}
+
+.box2 .content .kc .con {
+    height: 365px;
+}
+
+/* box3 */
+.box3 .content {
+    width: 960px;
+    height: 558px;
+    margin: 0 auto;
+    background: url(../images/course/assets_img@2x.jpg) no-repeat right bottom;
+    background-size: 430px 540px;
+}
+
+.box3 .content .title2 {
+    width: 576px;
+    padding-top: 280px;
+    background: url(../images/course/assets_img01@2x.jpg) no-repeat center 10px;
+    background-size: 576px 260px;
+}
+
+.box3 .content ul {
+    width: 576px;
+    overflow: hidden;
+}
+
+.box3 .content li {
+    float: left;
+    width: 238px;
+    line-height: 22px;
+    padding: 0 0 30px 50px;
+}
+
+.box3 .content li p{
+    color: #999;
+    font-size: 12px;
+}
+
+/* box4 */
+.box4 {
+    background: #f0f0f0;
+}
+
+.box4 .content {
+    width: 960px;
+    height: 730px;
+    margin: 0 auto;
+    background: url(../images/course/rm_img@2x.jpg) no-repeat center bottom;
+    background-size: 960px 710px;
+}
+
+.box4 .content .kc {
+    bottom: 44px;
+}
+
+.box4 .content .kc .tit li {
+    width: 191px;
+}
+
+.box4 .content .kc .tit li:nth-last-child(1) {
+    width: 192px;
+}
+
+.box4 .content .kc .con {
+    height: 286px;
+}
+
+.box4 .content .kc .con dl {
+    width: 534px;
+    overflow: hidden;
+    padding: 20px 28px 0;
+}
+
+.box4 .content .kc .con dt {
+    float: left;
+    width: 94px;
+}
+
+.box4 .content .kc .con dd {
+    float: left;
+    width: 410px;
+}
+
+/* box5 */
+.box5 {
+    padding: 10px 0 76px;
+}
+
+.box5 .content {
+    width: 960px;
+    height: 335px;
+    box-shadow: 0 7px 20px rgba(204, 204, 204, .51);
+    background: url(../images/course/advantage@2x.png) no-repeat #fff;
+    background-size: 960px 335px;
+    margin: 0 auto;
+}
+
+/* kc */
+.kc {
+    position: absolute;
+    right: 0;
+    width: 580px;
+}
+
+.kc .tit ul {
+    width: 580px;
+    overflow: hidden;
+}
+
+.kc .tit li {
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    font-size: 18px;
+    color: #ccc;
+    background: #999;
+    text-align: center;
+    cursor: pointer;
+    border-right: #9e9e9e 2px solid;
+}
+
+.kc .tit li:nth-last-child(1) {
+    border-color: #999;
+}
+
+.kc .tit li big {
+    font-size: 24px;
+    display: block;
+}
+
+.kc .tit li.current {
+    color: #fff;
+    background: #fa9900;
+    border-color: #fa9900;
+}
+
+.kc .con {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.kc .con .subbox {
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.kc .con .subbox {
+    width: 9999em;
+}
+
+.kc .con .subbox .sublist {
+    float: left;
+    width: 580px;
+}
+
+.kc .con dl {
+    padding: 20px 32px 0;
+}
+
+.kc .con dt {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.kc .con dd {
+    margin-top: 2px;
+}
+
+/* lv */
+.lv {
+    width: 700px;
+    overflow: hidden;
+    margin: 40px auto 0;
+    border-bottom: #ccc 1px solid;
+    padding: 0 130px 40px;
+}
+
+.lv dl {
+    float: left;
+    width: 175px;
+    font-size: 18px;
+}
+
+.lv dt {
+    width: 58px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    background: #fa9900;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+}
