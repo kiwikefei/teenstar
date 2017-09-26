@@ -14,7 +14,6 @@ class InterestController extends Controller
      */
     public function index()
     {
-        return view('interests.index');
     }
 
     /**
@@ -31,11 +30,16 @@ class InterestController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return array
      */
     public function store(Request $request)
     {
-        //
+        $interest = Interest::where('mobile',$request->get('mobile'))->first();
+        if(!$interest){
+            Interest::create($request->only(['city','name','mobile','email','contact']));
+            return response()->json(['message'=>'success'],200,[]);
+        }
+        return response()->json(['message'=>'existed'],200,[]);
     }
 
     /**

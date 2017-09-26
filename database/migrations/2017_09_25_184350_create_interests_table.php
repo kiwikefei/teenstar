@@ -15,11 +15,11 @@ class CreateInterestsTable extends Migration
     {
         Schema::create('interests', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('province');
             $table->string('city');
             $table->string('name');
             $table->string('mobile');
             $table->string('email');
+            $table->string('contact');
             $table->timestamps();
         });
     }

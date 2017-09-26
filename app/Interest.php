@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Interest extends Model
 {
-    protected $fillable = ['province','city','name','mobile','email'];
+    protected $fillable = ['city','name','mobile','email','contact'];
 }

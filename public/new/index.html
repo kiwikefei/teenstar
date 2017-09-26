@@ -7,11 +7,10 @@
     <meta name="Robots" content="All">
     <title>童王星 专注能力培养的童商大学</title>
     <link href="css/swiper.min.css" rel="stylesheet"/>
-    <link href="css/selectordie.css" rel="stylesheet" />
-    <link href="css/quick-modal.min.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
     <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/floating.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -165,40 +164,11 @@
                 </p>
             </div>
             <div class="area a4">
-                <div class="jsq">
-                    <div class="inputArea w2">
-                        <strong>所在城市</strong>
-                        <select>
-                            <option>黑龙江</option>
-                            <option>辽宁</option>
-                            <option>北京</option>
-                        </select>
-                        <select>
-                            <option>佳木斯</option>
-                        </select>
-                    </div>
-                    <div class="inputArea">
-                        <strong>姓名</strong>
-                        <input class="ipt" type="text" />
-                    </div>
-                    <div class="inputArea">
-                        <strong>联系电话</strong>
-                        <input class="ipt" type="text" />
-                    </div>
-                    <div class="inputArea">
-                        <strong>电子邮箱</strong>
-                        <input class="ipt" type="email" />
-                    </div>
-                    <div class="inputButton">
-                        <input class="btn open-modal" type="submit" data-modal-id="my-modal" value="提交加盟申请" />
-                    </div>
-                </div>
-            </div>
-            <div class="area a5">
                 <dl>
                     <dt>加盟合作咨询</dt>
                     <dd>
                         <div class="phone">400-700-9293</div>
+                        <a href="apply.html" target="_blank">在线申请</a>
                         <a href="branch.html">查看全国中心</a>
                     </dd>
                 </dl>
@@ -325,11 +295,10 @@
 </div>
 
 <script src="js/jquery-1.10.1.min.js"></script>
-<script src="js/selectordie.min.js"></script>
 <script src="js/swiper.jquery.min.js"></script>
 <script src="js/js.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/jquery.quick-modal.min.js"></script>
+<script src="js/floating.js"></script>
 <script>
     var swiper = new Swiper('.box4 .swiper-container', {
         pagination: '.swiper-pagination',
@@ -342,14 +311,6 @@
     });
 </script>
 <script>
-    //select外观定义
-    $(document).ready(function() {
-        $(function(){
-            $('select').selectOrDie();
-        });
-    })
-</script>
-<script>
     var wow = new WOW({
     boxClass: 'wow',
     animateClass: 'animated',
@@ -360,41 +321,9 @@
     wow.init();
 </script>
 <script>
-    /* ----------------------------------------
-     Demo-Specific Scripts（模态窗口示例需要的初始化代码）
-     ---------------------------------------- */
-    $(document).ready(function() {
-        $('.open-modal').click(function() {
-            $('#my-modal').quickModal('open');
-            return false;
-        });
-
-        $('#close-button').click(function() {
-            $('#my-modal').quickModal('close');
-            return false;
-        });
-
-        $('.open-modal01').click(function() {
-            $('#my-modal01').quickModal('open');
-            return false;
-        });
-
-        $('#close-button01').click(function() {
-            $('#my-modal01').quickModal('close');
-            return false;
-        });
-    });
+    $(document).ready(function () {
+        $("body").floating({"theme":"panel_theme_round_Blacktheme","state":true,"moveState":false,"size":"sm","position":"right-bottom","tip":{"background-color":"#000","color":"#fff"},"account":[{"type":"Email","tip":"franchise@teenstar.cn","text":"franchise@teenstar.cn","url":"mailto:franchise@teenstar.cn"},{"type":"Phone","tip":"400-700-9293","text":"4007009293","url":"tel:4007009293"},{"type":"QQ","tip":null,"text":"244808493","url":"http://wpa.qq.com/msgrd?v=3&uin=244808493&site=qq&menu=yes"},{"type":"QRcode","tip":"http://www.teenstar.cn/new/images/qrcode.png","text":null,"url":null},{"type":"Message","tip":"在线提交加盟申请","text":null,"url":"http://www.teenstar.cn/new/apply.html"},{"type":"Top","tip":"Back top","text":null,"url":null}]});
+    })
 </script>
-<div id="my-modal" class="qm-modal">
-    <dl class="confirm">
-        <dt>提交成功！</dt>
-        <dd>
-            感谢您的关注，投资顾问会在第一时间联系您。<br />
-            您也可以随时拨打电话：4007009293联系我们
-        </dd>
-    </dl>
-    <a href="#" id="close-button" class="icon_close" data-modal-id="my-modal">关闭窗口</a>
-</div>
-
 </body>
 </html>

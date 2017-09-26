@@ -6,8 +6,6 @@
     <meta name="Description" content="童王星是专注于4-12岁儿童能力培养的教育机构，提供思维、情商、财商、脑图等精彩课程。">
     <meta name="Robots" content="All">
     <title>童王星 - 加盟合作</title>
-    <link href="css/selectordie.css" rel="stylesheet" />
-    <link href="css/quick-modal.min.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/franchise.css" rel="stylesheet" />
 </head>
@@ -159,7 +157,7 @@
         <dl>
             <dt>选择童王星，开启拥有无限未来的事业</dt>
             <dd>
-                <a href="#" class="open-modal" data-modal-id="my-modal">在线投资评估</a>
+                <a href="apply.html" target="_blank">在线投资评估</a>
                 <span class="phone">400-700-9293</span>
             </dd>
         </dl>
@@ -182,10 +180,8 @@
 </div>
 
 <script src="js/jquery-1.10.1.min.js"></script>
-<script src="js/selectordie.min.js"></script>
 <script src="js/js.js"></script>
 <script src="js/jquery.tab.js"></script>
-<script src="js/jquery.quick-modal.min.js"></script>
 <script>
     $(document).ready(function($){
         //淡隐淡现选项卡切换
@@ -196,67 +192,6 @@
         });
     });
 </script>
-<script>
-    //select外观定义
-    $(document).ready(function() {
-        $(function(){
-            $('select').selectOrDie();
-        });
-    })
-</script>
-<script>
-    /* ----------------------------------------
-     Demo-Specific Scripts（模态窗口示例需要的初始化代码）
-     ---------------------------------------- */
-    $(document).ready(function() {
-        $('.open-modal').click(function() {
-            $('#my-modal2').quickModal('open');
-            return false;
-        });
 
-        $('#close-button2').click(function() {
-            $('#my-modal2').quickModal('close');
-            return false;
-        });
-    });
-</script>
-<div id="my-modal2" class="qm-modal">
-    <div class="jsq">
-        <div class="title">
-            <h2>在线申请加盟</h2>
-        </div>
-        <form action="index.html">
-            <div class="inputArea w2">
-                <strong>所在城市</strong>
-                <select>
-                    <option>黑龙江</option>
-                    <option>辽宁</option>
-                    <option>北京</option>
-                </select>
-                <select>
-                    <option>佳木斯</option>
-                    <option>辽宁</option>
-                    <option>北京</option>
-                </select>
-            </div>
-            <div class="inputArea">
-                <strong>姓名</strong>
-                <input class="ipt" type="text" />
-            </div>
-            <div class="inputArea">
-                <strong>联系电话</strong>
-                <input class="ipt" type="text" />
-            </div>
-            <div class="inputArea">
-                <strong>电子邮箱</strong>
-                <input class="ipt" type="email" />
-            </div>
-            <div class="inputButton">
-                <input class="btn" type="submit" value="加盟申请" />
-            </div>
-        </form>
-    </div>
-    <a href="#" id="close-button2" class="icon_close" data-modal-id="my-modal2">关闭</a>
-</div>
 </body>
 </html>

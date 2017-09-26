@@ -6,8 +6,6 @@
     <meta name="Description" content="童王星是专注于4-12岁儿童能力培养的教育机构，提供思维、情商、财商、脑图等精彩课程。">
     <meta name="Robots" content="All">
     <title>童王星 - 全国中心</title>
-    <link href="css/selectordie.css" rel="stylesheet" />
-    <link href="css/quick-modal.min.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/branch.css" rel="stylesheet" />
 </head>
@@ -129,42 +127,12 @@
             </dl>
         </div>
         <div class="sq">
-            <div class="title2">
-                <h2>加盟申请</h2>
-                <small>欢迎加入童王星大家庭</small>
-            </div>
-            <div class="jsq">
-                <form action="index.html">
-                    <div class="inputArea w2">
-                        <strong>所在城市</strong>
-                        <select>
-                            <option>黑龙江</option>
-                            <option>辽宁</option>
-                            <option>北京</option>
-                        </select>
-                        <select>
-                            <option>佳木斯</option>
-                            <option>辽宁</option>
-                            <option>北京</option>
-                        </select>
-                    </div>
-                    <div class="inputArea">
-                        <strong>姓名</strong>
-                        <input class="ipt" type="text" />
-                    </div>
-                    <div class="inputArea">
-                        <strong>联系电话</strong>
-                        <input class="ipt" type="text" />
-                    </div>
-                    <div class="inputArea">
-                        <strong>电子邮箱</strong>
-                        <input class="ipt" type="email" />
-                    </div>
-                    <div class="inputButton">
-                        <input class="btn open-modal" type="submit" data-modal-id="my-modal" value="咨询加盟" />
-                    </div>
-                </form>
-            </div>
+            <dl>
+                <dd>
+                    <a href="apply.html" target="_blank">在线提交申请</a>
+                    <div class="phone">400-700-9293</div>
+                </dd>
+            </dl>
         </div>
     </div>
     <footer class="footer">
@@ -184,42 +152,6 @@
 </div>
 
 <script src="js/jquery-1.10.1.min.js"></script>
-<script src="js/selectordie.min.js"></script>
 <script src="js/js.js"></script>
-<script src="js/jquery.quick-modal.min.js"></script>
-<script>
-    //select外观定义
-    $(document).ready(function() {
-        $(function(){
-            $('select').selectOrDie();
-        });
-    })
-</script>
-<script>
-    /* ----------------------------------------
-     Demo-Specific Scripts（模态窗口示例需要的初始化代码）
-     ---------------------------------------- */
-    $(document).ready(function() {
-        $('.open-modal').click(function() {
-            $('#my-modal').quickModal('open');
-            return false;
-        });
-
-        $('#close-button').click(function() {
-            $('#my-modal').quickModal('close');
-            return false;
-        });
-    });
-</script>
-<div id="my-modal" class="qm-modal">
-    <dl class="confirm">
-        <dt>提交成功！</dt>
-        <dd>
-            感谢您的关注，投资顾问会在第一时间联系您。<br />
-            您也可以随时拨打电话：4007009293联系我们
-        </dd>
-    </dl>
-    <a href="#" id="close-button" class="icon_close" data-modal-id="my-modal">关闭窗口</a>
-</div>
 </body>
 </html>
